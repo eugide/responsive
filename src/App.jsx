@@ -2,7 +2,10 @@ function App() {
   return (
     <>
       <section className="w-11/12 m-auto my-10">
-        <div className="grid gap-8 md:grid-cols-2 md:text-center md:text-left">
+        <div
+          className="grid gap-8 md:grid-cols-2 md:text-center md:text-left 
+             sm:max-xl:bg-blue-100 sm:max-xl:p-9"
+        >
           <div>
             <img
               className="w-full rounded-lg "
